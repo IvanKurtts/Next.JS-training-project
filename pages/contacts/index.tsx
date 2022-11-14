@@ -39,7 +39,7 @@ const Contacts:FC<contactsTypeProps> = ({contacts}) => {
     <Head>
       <title>Contacts</title>
     </Head>
-    <Heading text="Contacts list:" />
+    <h1>Contacts list:</h1> 
     <ul>
       {contacts && contacts.map(({id, name}) => (
         <li key={id}>
