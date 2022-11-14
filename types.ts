@@ -16,9 +16,3 @@ export type postType = {
     title: string,
     body: string,
 }
-
-export type socialsType = {
-    id: string,
-    icon: object,
-    path: string,
-}
